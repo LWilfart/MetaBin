@@ -1,0 +1,8 @@
+awk '{print $1}' nouveau_fichier.txt > codes_accession_envnt.csv
+
+
+----------------
+
+Pour avoir la liste des code acces les plus récurant
+
+cat ca_envnt_03 | sort | uniq -c | sort -nr | head -n 3
