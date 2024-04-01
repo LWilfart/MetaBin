@@ -1,18 +1,18 @@
-#Importation Librairie
+#Library import
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Path vers CSV
-csv_file = "/home/dydinux/TFE/10_Graph_GC_Cov_Binning/03/table/nt_03.csv"
+# Path to CSV
+csv_file = "path/to/your/file.csv"
 
-# Lire le CSV
+# Read CSV
 data = pd.read_csv(csv_file)
 
-# Créer scatterplot
+# Scatterplot creation
 plt.scatter(data['%GC'],data['Coverage'])
 plt.xlabel('%GC')
 plt.ylabel('Coverage')
 plt.title('Scatterplot Coverage vs %GC')
 
-# scatterplot
+# Plot
 plt.show()
