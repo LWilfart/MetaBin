@@ -6,8 +6,8 @@ def calculate_gc(sequence):
     gc_percentage = (gc_count / total_count) * 100
     return gc_percentage
 
-fasta_file = "/home/dydinux/TFE/3_CUTM/03/contigs6M_200.fasta"
-output_file = "/home/dydinux/TFE/10_Graph_GC_Cov_Binning/03/tableau200_6M.csv"
+fasta_file = "Path/to/your/file.fasta"
+output_file = "Path/to/your/output/file.csv"
 
 with open(output_file, 'w') as outfile:
     outfile.write("Contig,Coverage,%GC\n")
