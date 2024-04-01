@@ -13,7 +13,7 @@ Here are the steps to follow:
 **1. Creation of a table from spades results in contigs.fasta**  
       Use the script tb_spades.py  
 **2. Creation of a table with accession code from the blast file, then joining them with the table from 1**  
-      Use the script ligne_acc_blast.py  
+      Use the script extract_blast_line.py  
 **3. Creation of a simple plot GC content percentage/coverage**  
       Use the script simple_plot.py  
 **4. Creation of a plot with color and legend**  
