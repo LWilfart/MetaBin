@@ -1,8 +1,11 @@
-awk '{print $1}' nouveau_fichier.txt > codes_accession_envnt.csv
+------
+Bash
+------
 
+awk '{print $1}' new_file.txt > codes_accession_envnt.csv
 
 ----------------
 
-Pour avoir la liste des code acces les plus récurant
+To get the list of the most recurring access codes.
 
 cat ca_envnt_03 | sort | uniq -c | sort -nr | head -n 3
