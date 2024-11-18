@@ -6,7 +6,7 @@ MetaBin is a collection of Python scripts designed to perform GC content percent
 
 ---
 
-**These scripts are a part of my bachelor thesis (Binning step - see workflow below) which was about studying microbiota communities involved in biogas production by analyzing biological data (DNA) to improve biogas production** - *You can found my thesis in the thesis folder.*
+**These scripts are a part of my work and my bachelor thesis (Binning step - see workflow below) which was about studying microbiota communities involved in biogas production by analyzing biological data (DNA) to improve biogas production** - *You can found my thesis in the thesis folder.*
 
 ### What is it Biogas ?
 
